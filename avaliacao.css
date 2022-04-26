@@ -1,7 +1,7 @@
 /* importando a fonte Roboto do google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;900&display=swap');
 
-
+/**/
 * {
     margin: 0;
     padding: 0;
@@ -17,7 +17,7 @@ main {
     font-family: 'Roboto', sans-serif;
     font-size: 28px;
 }
-
+/*Poster do filme*/
 #moviePoster {
     width: 50%;
     height: 100%;
@@ -30,7 +30,7 @@ main {
     background-position: center;
     background-size: cover;
 }
-
+/*Faixa azul na vertical*/
 .omdbrating {
     position: absolute;
     width: 315.47px;
@@ -47,7 +47,7 @@ main {
 
     padding-top: 15px;
 }
-
+/*Cor do icone*/
 #icone {
     color: #F6C516;
 }
@@ -55,7 +55,7 @@ main {
 #imdbRating {
     color: #F4F4F4;
 }
-
+/*Descrição do filme*/
 .description {
     width: 50%;
     background: #390F0F;
@@ -64,26 +64,26 @@ main {
     
     z-index: 2;
 }
-
+/*Tituto*/
 #movieTitle {
     color: #D6D6D6;
     font-size: 38px;
     margin-bottom: 30px;
 }
-
+/*Informação do filme*/
 #movieInfo {
     margin: 25px 0;
 }
-
+/*Roterista do filme*/
 #movieWriter {
     margin-bottom: 25px;
 }
-
+/*Cor da informação da duração e o ano*/
 .infoBlue {
     color: #217C8F;
     font-weight: bold;
 }
-
+/*Genero do filme "margem"*/
 #movieGenre{
     margin: 0 20px;
 }
@@ -94,6 +94,7 @@ main {
 #formSearch {
     margin-bottom: 30px;
 }
+/*Fundo de onde tem barra de pesquisa e a informações*/
 #formSearch input[type='text'] {
     background-color: #390F0F;
     padding: 10px 20px;
@@ -103,12 +104,12 @@ main {
     border-radius: 10px;
     margin-right: 10px;
 }
-
+/*Area de pesquisa*/
 #formSearch input[type='text']:focus{
     outline: none;
     border: 4px solid #F4F4F4;
 }
-
+/*Botão de pesquisar*/
 #formSearch input[type='submit'] {
     padding: 15px 20px;
     background-color: #217C8F;
@@ -134,7 +135,7 @@ main {
 
 
 /* responsivo para celular */
-
+/*Para celular "Mesma coisa de cima porém para celular*/
 @media (max-width: 700px) {
 
     main {
