@@ -15,24 +15,24 @@
 <body>
 
     <main>
-        <div id="moviePoster">
-            <div class="omdbrating">
-                <span id="icone"><i class="fa-solid fa-star"></i></span>
+        <div id="moviePoster"> <!-- Aparece a imagem do filme -->
+            <div class="omdbrating"> <!-- Faixa azul na vertical -->
+                <span id="icone"><i class="fa-solid fa-star"></i></span> <!-- Icone de estrela-->
 
-                <span id="imdbRating">Score</span>
+                <span id="imdbRating">Score</span> <!-- Nome escrito na faixa azul-->
             </div>
         </div>
 
         
-        <div class="description">
+        <div class="description"> <!-- Ira aparecer todas as informações do filme, barra de pesquisa,botão etc. -->
 
-            <form id="formSearch" action="">
-                <input id="title" type="text" placeholder="Informe o título do filme">
-                <input type="submit" value="Pesquisar">
+            <form id="formSearch" action=""> <!-- Área de pesquisa -->
+                <input id="title" type="text" placeholder="Informe o título do filme">  <!-- Barra de pesquisa -->
+                <input type="submit" value="Pesquisar"> <!-- Botão de pesquisa -->
             </form>
             <div id="descriptionBodyNotFound">
             </div>
-            <div id="descriptionBody">
+            <div id="descriptionBody">  <!-- Vai aparcer todas as informarções do filme; nome do filme, tempo de duração, ano de lançamento, genero do filme, escritor e diretor-->
                 <h1 id="movieTitle">Titulo do filme</h1>
                 <p><span class="infoBlue" id="movieYear">ANO</span> <span id="movieGenre">GENERO DO FILME</span> <span
                         class="infoBlue" id="movieRuntime">DURAÇÃO</span></p>
